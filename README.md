@@ -5,14 +5,7 @@ git clone https://github.com/Saltlux1/snuh_keywords
 ```
 ## 💾데이터베이스 연결
 데이터베이스 연결 정보는 <b>db_connect.py</b> 파일에 있으면 데이터베이스 접속할 필요가 있는 스크립트 <b>db_connect.py</b> 파일을 이용해서 데이터베이스 접속 정보를 바꾸면 이 파일 라인 6부터 라인 9까지만 수정해야 한다.
-```
-HOST = "luxian.co.kr"
-PORT = 23306
-USER = "albaro"
-PSSWD = "Dkfqkfh2@"
-DB = "snuh_mart_db"
-```
-지금 쓰고 있는 사용자와 비밀번호 채환희(알바로) 주임 것이고 울산 사무실에게 받는 사용자이다.
+
 ## 🏝 가상환경
 ```
 cd snuh_keywords
@@ -80,6 +73,3 @@ python wordcloud_generator(complete).py
 <p align="center">
   <img src="img/diagram2.png" align="center" />
 </p>
-
-### 체크포인트 로드
-### 키워드 추출
